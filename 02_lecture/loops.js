@@ -22,3 +22,12 @@ while(arr<myarray.length){
 console.log(`value is ${myarray[arr]}`);
 arr = arr+1
 }
+
+
+//                          DO WHILE LOOPS 
+let score =11
+do{
+    console.log(`scoreis${score}`);
+    score++
+}while(score<=10)
+
