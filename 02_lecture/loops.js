@@ -79,3 +79,12 @@ for (const key in programming) {
 //    console.log(programming[key]);
 //    console.log(key);
     }
+
+    //                       for each loop
+    const coding = ["rb","js","java","python","cpp"]
+    coding.forEach( function (val){
+        console.log(val);
+    } )
+
+
+    
