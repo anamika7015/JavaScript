@@ -35,13 +35,13 @@ let score =11
 
 const array = [1,2,3,4,5]
 for (const num of array) {
-    console.log(num);
+    // console.log(num);
     
 }
 
 const greetings = "hello world!"
 for (const greet of greetings) {
-    console.log(greet);
+    // console.log(greet);
 }
  
 
@@ -51,10 +51,31 @@ map.set('In',"India")
 map.set('USA',"United state of America")
 map.set('Fr',"France")
 map.set('In',"India")
-console.log(map);
+// console.log(map);
 for (const [key,value] of map) {
-    console.log(key,':-' ,value);
+    // console.log(key,':-' ,value);
 
 }
+ 
+//                                            for in loops
 
 
+const myObject = {
+    js : 'javascript',
+    cpp: 'c++',
+    rb :"ruby",
+    swift: "swift by apple"
+
+}
+ for (const key in myObject) {
+    // console.log(myObject[key]);
+    // console.log(`${key} shortcut is for ${myObject[key]}`);
+    
+        
+    }
+ 
+const programming =["js","rb","py","java"]
+for (const key in programming) {
+//    console.log(programming[key]);
+//    console.log(key);
+    }
