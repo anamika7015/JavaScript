@@ -83,8 +83,22 @@ for (const key in programming) {
     //                       for each loop
     const coding = ["rb","js","java","python","cpp"]
     coding.forEach( function (val){
-        console.log(val);
+        // console.log(val);
     } )
+
+    const myNums = [1,2,3,4,5,6,7,8,9]
+    // const newNums = myNums.filter((num)=>{
+    //     return num>4
+//     }
+// )
+  
+const newNums = []
+myNums.forEach((num)=>{
+    if(num>4){
+        newNums.push(num)
+    }
+})
+ console.log(newNums);
 
 
     

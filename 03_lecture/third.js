@@ -27,3 +27,4 @@ document.getElementsById("myH1").textcontent = `Hello`;
 
      console.log(typeof firstName);
      console.log(`my nsme is ${firstName}`);
+     
