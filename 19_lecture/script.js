@@ -1,6 +1,6 @@
 // while loop = repeat some code while some condition is true
 
-let loggedin =true;
+let loggedin;
 let username;
 let password;
 while(loggedin) {
