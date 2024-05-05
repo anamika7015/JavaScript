@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-color:red;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    height: 350px;
+   margin-top: 200px;
+    border-radius: 7px;
+    width: 300px;
+}
+#textBox{
+    height: 40px;
+    width: 180px;
+    border-radius: 7px;
+}
+#toFahrenheit{
+    font-size: 80px;
+}
+#myButton{
+    height: 30px;
+    width: 50px;
+    color: white;
+    
+    border-radius: 7px;
+}
+#myButton:hover{
+   background-color: chartreuse;
+    border-radius: 7px;
+}
