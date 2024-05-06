@@ -3,7 +3,7 @@
     padding: 0;
 }
 form{
-    background-color:red;
+    background-color: rgb(182, 133, 133);
     margin: auto;
     text-align: center;
     border: 2px solid black;
@@ -11,6 +11,9 @@ form{
    margin-top: 200px;
     border-radius: 7px;
     width: 300px;
+}
+h1{
+    color: royalblue;
 }
 #textBox{
     text-align: center;
@@ -36,5 +39,5 @@ label{
     border-radius: 7px;
 }
 #result{
-    font-size: 50px;
+    font-size: 40px;
 }
