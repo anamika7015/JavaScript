@@ -11,8 +11,14 @@
 // console.log(maximum);
 // console.log(minimum);
 
-let username = "Bro code";
-let letters = [...username].join("-");
-console.log(letters);
+// let username = "Bro code";
+// let letters = [...username].join("-");
+// console.log(letters);
 
-let fruits = ["orange"]
+// let fruits = ["orange"]
+
+
+let fruits = ["mango","banana","papaya","apple", "ornge"];
+let vegetables = ["potatos", "carrot", "onion"];
+let foods = [...fruits,...vegetables,"egg","milk"];
+console.log(foods);
