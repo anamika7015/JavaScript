@@ -1,0 +1,41 @@
+// callback = a function that is passed as an argument to another function.
+//                      used to control asynchronous opertions
+//                     1. Reading a file 
+//                      2. Network request
+//                     3. Interacing with database
+
+//                     "hey, when you are done,call this next."
+
+
+
+
+// hello(wait)
+
+// function hello(callback) {
+//     console.log("hello!");
+//     callback();
+// }
+// function goodbye() {
+//     console.log("goodbye!");
+    
+// }
+// function wait() {
+//     console.log("wait");
+// }
+
+
+
+
+// sum of two numbers
+sum(displayPage, 2,3)
+function sum(callback,x,y) {
+    let result = x+y;
+callback(result);
+    
+}
+function displayConsole(result) {
+    console.log(result);
+}
+function displayPage(result) {
+    document.getElementById("myh1").textContent = result;
+}
