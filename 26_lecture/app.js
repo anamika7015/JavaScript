@@ -16,15 +16,15 @@ function cubes(element) {
 }
 
 
-//+++++++++++++++++++++++nam+++++++++++++
+//+++++++++++++++++++++++name+++++++++++++
 
 const names = ["anamika","neha","putul","shiva"];
 const upper = names.map(uppercase);
 const lower = names.map(lowercase);
 const captlizeName = names.map(captlize);
-console.log(captlizeName);
-console.log(lower);
-console.log(upper);
+// console.log(captlizeName);
+// console.log(lower);
+// console.log(upper);
 function uppercase(element) {
     return element.toUpperCase();
     
@@ -35,5 +35,16 @@ function lowercase(element) {
 }
 function captlize(element) {
     return element.charAt().toUpperCase() + element.slice(1);
+    
+}
+
+//  format of date
+
+const date = ["2022-3-10","2023-1-4","2024-9-12"];
+const format = date.map(formatDate);
+console.log(format);
+function formatDate(element) {
+    const part = element.split("-");
+    return `${part[1]}/${part[2]}/${part[0]}`;
     
 }
