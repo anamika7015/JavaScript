@@ -1,0 +1,54 @@
+body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(209, 199, 199);
+ gap: 17px;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: "Arial",  sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+#display{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+#controls button{
+    font-size: 30px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+#startbtn{
+    background-color: green;
+}
+#startbtn:hover{
+    background-color: rgb(103, 216, 103);
+}
+#stopbtn{
+    background-color: rgb(254, 19, 19);
+}
+#stopbtn:hover{
+    background-color: rgb(255, 79, 79);
+}
+#resetbtn{
+    background-color: blue;
+}
+#resetbtn:hover{
+    background-color: rgb(69, 69, 255);
+}
