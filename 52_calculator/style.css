@@ -42,17 +42,20 @@ button{
     border-radius: 50px;
     font-size: 3rem;
     border: none;
-    background-color: rgb(73, 75, 75);
+    background-color: rgb(64, 241, 193);
     font-weight: bold;
     color: white;
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(95, 96, 96);
+   
+    background-color: rgb(148, 245, 219);
+
 
 }
 button:active{
-    background-color: rgb(127, 129, 129);
+    background-color: rgb(182, 239, 224);
+
 
 }
 .operator-btn{
