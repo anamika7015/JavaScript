@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#container{
+    background-color: black;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    font-size: 2rem;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border: none;
+    background-color: rgb(48, 44, 44);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 3rem;
+    background-color: rgb(78, 239, 239);
+    font-weight: bold;
+    cursor: pointer;
+}
