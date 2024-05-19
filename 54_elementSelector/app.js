@@ -39,6 +39,11 @@ console.log(fruits);
 // }
 
 
-const element = document.querySelector(".fruits");
+// const element = document.querySelector(".fruits");
  
-element.style.backgroundColor = "lightgreen";
+// element.style.backgroundColor = "lightgreen";
+const element = document.querySelectorAll("h4");
+
+element.forEach(element =>{
+    element.style.backgroundColor = "pink";
+});
