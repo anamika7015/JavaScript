@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(236, 231, 159);
+}
+.mybtn{
+    background-color: rgb(63, 176, 214);
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: whitesmoke;
+}
