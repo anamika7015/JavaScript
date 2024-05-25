@@ -53,10 +53,10 @@ let buttons = document.querySelectorAll(".mybtn");
 
 // REMOVE AN ELEMENT
 
-buttons.forEach(button =>{
-    button.addEventListener("click", event =>{
-        event.target.remove();
-        buttons = document.querySelectorAll(".mybtn");
-        console.log(buttons);
-    });
-});
+// buttons.forEach(button =>{
+//     button.addEventListener("click", event =>{
+//         event.target.remove();
+//         buttons = document.querySelectorAll(".mybtn");
+//         console.log(buttons);
+//     });
+// });
