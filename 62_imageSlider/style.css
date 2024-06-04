@@ -9,7 +9,32 @@ padding: 0;
     overflow: hidden;
 }
 .slider img{
+    
     width: 100%;
     display: none;
 }
-img
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider button{
+    position: absolute;
+    top: 50%;
+    padding: 10px 15px;
+    transform: translateY(.50%);
+    font-size: 2rem;
+    background-color: rgb(87, 79, 79);
+    border: none;
+    cursor: pointer;
+}
+.previous{
+    left: 0;
+}
+.next{
+    right: 0;
+} 
+@keyframes fade{
+    from {opacity: .5}
+    to{opacity: 1}
+}
